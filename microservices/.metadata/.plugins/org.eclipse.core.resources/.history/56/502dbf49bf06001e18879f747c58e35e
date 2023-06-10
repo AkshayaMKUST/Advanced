@@ -1,0 +1,21 @@
+package com.ust.project.entity;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class Movie {
+	
+	private long movie_id;
+	private String movie_name;
+	private String movie_director;
+	private String movie_genre;
+	private double movie_release_date;
+	private double overall_rate;
+	private String movie_language;
+	
+
+}

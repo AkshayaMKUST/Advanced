@@ -1,0 +1,21 @@
+<hr>
+<div>
+    <h3>Update Product</h3>
+  
+    <div >
+      <h3>Product Details</h3>
+      <form (submit)="saveUpdatedProduct()">
+        <input type="hidden" [(ngModel)]="product.productId" name="productId">
+        <label for="nameInput">Name:</label>
+        <input type="text" [(ngModel)]="product.name" name="name" required><br>
+        <label for="descriptionInput">Description:</label>
+        <input type="text" [(ngModel)]="product.description" name="description" required><br>
+        <label for="priceInput">Price:</label>
+        <input type="number" [(ngModel)]="product.price" name="price" required><br>
+        <label for="qtyInput">Quantity:</label>
+        <input type="number" [(ngModel)]="product.qty" name="qty" required><br>
+        <button type="submit">Update Product</button>
+      </form>
+    </div>
+  </div>
+  

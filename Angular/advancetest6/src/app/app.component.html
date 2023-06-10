@@ -1,0 +1,5 @@
+<div>
+  <h1>{{ title }}</h1>
+  <button (click)="showAlert()">Show Alert</button>
+  <div *ngIf="showMessage" class="alert">{{ message }}</div>
+</div>

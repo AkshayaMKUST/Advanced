@@ -1,0 +1,4 @@
+job1-compile compile :compile :NA
+job2-unittest : unit test :test
+job3-metriccheck: metric check :cobertura:cobertura-Dcobertura.report.format=xml :target/surefire-reports/*.xml
+job4-package : package :package :NA

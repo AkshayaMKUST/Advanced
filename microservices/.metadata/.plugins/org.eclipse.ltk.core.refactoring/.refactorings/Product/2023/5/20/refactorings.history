@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.ust.productcontroller&apos; to &apos;com.ust.product.resources&apos;&#x0D;&#x0A;- Original project: &apos;Product&apos;&#x0D;&#x0A;- Original element: &apos;Product/src/main/java/com.ust.productcontroller&apos;&#x0D;&#x0A;- Renamed element: &apos;Product/src/main/java/com.ust.product.resources&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.ust.productcontroller&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ust.productcontroller" name="com.ust.product.resources" qualified="false" references="true" stamp="1684574030947" textual="false" version="1.0"/>
+</session>
